@@ -1,0 +1,50 @@
+{
+    "fixed_threshold": {
+        "method_name": "Fixed Threshold Monitoring",
+        "dataset_evaluated": "test_data.csv",
+        "total_test_samples": 10010,
+        "execution_time_sec": 0.4822,
+        "accuracy": 0.7173,
+        "precision": 0.6322,
+        "recall": 0.7516,
+        "f1_score": 0.6867,
+        "true_positives": 3102,
+        "false_positives": 1805,
+        "true_negatives": 4078,
+        "false_negatives": 1025,
+        "throttle_far": 0.8756,
+        "mean_detection_delay_sec": 8.51
+    },
+    "standard_isolation": {
+        "method_name": "Standard Isolation Forest",
+        "dataset_evaluated": "test_data.csv",
+        "total_test_samples": 10010,
+        "execution_time_sec": 0.6308,
+        "accuracy": 0.5944,
+        "precision": 0.6151,
+        "recall": 0.0434,
+        "f1_score": 0.081,
+        "true_positives": 179,
+        "false_positives": 112,
+        "true_negatives": 5771,
+        "false_negatives": 3948,
+        "throttle_far": 0.0,
+        "mean_detection_delay_sec": 56.31
+    },
+    "phase_aware_isolation": {
+        "method_name": "Phase-Aware Isolation Forest",
+        "dataset_evaluated": "test_data.csv",
+        "total_test_samples": 10010,
+        "execution_time_sec": 1.1925,
+        "accuracy": 0.7183,
+        "precision": 0.9431,
+        "recall": 0.337,
+        "f1_score": 0.4966,
+        "true_positives": 1391,
+        "false_positives": 84,
+        "true_negatives": 5799,
+        "false_negatives": 2736,
+        "throttle_far": 0.0144,
+        "mean_detection_delay_sec": 13.86
+    }
+}
